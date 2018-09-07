@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*responsive with screet devices*/
+/*Large desktop*/
+	@media (min-width:768px) and (max-width:1300px) {
+
+		.padd h1{font-size: 32px !important;}
+	}
+
+
+
+
+/* Portrait tablet to landscape and desktop */
+/*logo and menu home-page*/
+@media (min-width:768px) and (max-width:991px)  {
+
+	body{overflow-x: hidden !important;}
+
+    .navbar-brand .icon-logo img{
+    	width: 50px;
+    	height: 60px
+    }
+    .navbar-brand .name-logo img{
+    	width: 60px;
+    }
+    .navbar-collapse .navbar-right li{
+    	font-size: 10px;
+    	margin-top: -5px;
+    }
+
+	/* banner home-page*/
+	.carousel-caption .col-sm-4{
+    	/*font-size: 16px !important;*/
+    	display: none !important;
+    }
+	/*OUR SPECIALTIES OFFER*/
+	#content .group-specialties .row .blog-text p {
+	    padding: 0px 0px !important;
+	    margin-top: -15px;
+	    font-size: 12px;
+	    font-size: 12px !important;
+	}
+	#content .group-services h2{text-align: center;}
+	#content .group-services .row .services-left,
+	#content .group-services .row .services-right{width: 100% !important;}
+	#content .group-services .row .services-right{margin-top: 30px !important;}
+
+	/*PRICES & INSURANCE home page*/
+	#content .group-prices .row .group-img-prices h1{margin-top: -45px !important; margin-left: -70px;}
+
+	/*LATEST NEWS & EVENTS home page*/
+	#content .group-news h2{padding-top: 50px;}
+	#content .news{height: 150px !important}
+	#content .group-news .group-text-news h3{margin-top: -1px;}
+
+	/*HAPPY CLIENTS TESTIMONAIL TO US home page*/
+
+	#content .group-happy .row h3{font-size: 16px !important;}
+	#content .group-happy .row p{font-size: 12px !important;padding: 20px 20px !important;}
+
+	/*CONTACT US home page*/
+	.media-contact-left h2{text-align: center;}
+	.media-contact-left .box-underline-center{text-align: center !important;display: flex !important;justify-content: center !important;}
+    .media-contact-left{width: 100% !important;}
+
+
+
+}	
+
+/* landscape phone */
+@media (min-width:480px) and (max-width:767px) {
+   
+}
+
+
+
+/* Portrait phone */
+@media (max-width:479px) {
+  
+}
